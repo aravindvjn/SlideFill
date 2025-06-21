@@ -1,0 +1,22 @@
+.link::before {
+    content: '';
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    background-color: var(--color-primary);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: comesfromleft 200ms forwards;
+    border-radius: calc(var(--radius) /* 0.25rem = 4px */ - 2px);
+}
+
+@keyframes comesfromleft {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
