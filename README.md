@@ -1,3 +1,3 @@
-## SlideFill ( ON DEV )
+# **SlideFill ( ON DEV )**
 
-#### Slidefill is a SaaS web app built with Next.js, Prisma, and TypeScript that allows users to generate professional presentations using AI. It offers features like starting from scratch with AI prompts, uploading content for slide generation, and selecting from curated design templates. The platform includes secure user authentication with email verification, password reset, and forgot password functionality for a seamless and protected user experience.
+*Slidefill is a SaaS web app built with Next.js, Prisma, and TypeScript that allows users to generate professional presentations using AI. It offers features like starting from scratch with AI prompts, uploading content for slide generation, and selecting from curated design templates. The platform includes secure user authentication with email verification, password reset, and forgot password functionality for a seamless and protected user experience.*
