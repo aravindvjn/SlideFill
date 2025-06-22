@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 const SideBar = () => {
   const pathName = usePathname();
   return (
-    <div className="md:w-[270px] lg:w-[300px] border-r-1 border-border h-svh p-[20px] top-0 sticky">
+    <div className="hidden lg:flex flex-col lg:w-[270px] xl:w-[300px] border-r-1 border-border h-svh p-[20px] top-0 sticky">
       <Logo />
       <div className="h-4" />
       {sideBarLinks.map((item) => (
